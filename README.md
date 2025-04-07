@@ -1,6 +1,7 @@
 # ₿  Crypto ETL Pipeline with Airflow, PostgreSQL, Docker, and Power BI
 
-![Architecture](https://github.com/user-attachments/assets/890fe7ea-d484-4240-9665-d661556c59bb)
+![Deployed-Architecture](https://github.com/user-attachments/assets/af930c49-768a-4061-9957-235e0e3d21e8)
+
 
 ## 📌 Overview
 
