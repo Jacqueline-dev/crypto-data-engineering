@@ -31,18 +31,21 @@ The entire solution is containerized using Docker to ensure portability and cons
 
 ```bash
 crypto-etl-pipeline/
-├── README.md                     # Project documentation
-├── requirements.txt              # Python dependencies
-├── .gitignore                    # Files and folders ignored by Git
-├── src/                          # ETL scripts and utilities
-│   ├── extraction.py             # Extracts data from the CoinGecko API
-│   ├── transform.py              # Cleans and transforms the data
-│   ├── load.py                   # Loads data into PostgreSQL
-│   ├── config.py                 # Configuration (no secrets)
-│   └── utils.py                  # Utility functions (e.g., logging)
-├── dags/                         # Apache Airflow DAGs
-│   └── crypto_dag.py             # Main DAG for orchestrating the ETL
-└── docs/                         # Documentation and architecture diagrams
-    ├── arquitetura.pdf           # Architecture overview (PDF)
-    ├── fluxo_de_dados.png        # Data flow diagram
-    └── setup_ambiente.md         # Environment setup guide
+├── README.md                     # Documentação do projeto
+├── requirements.txt              # Dependências Python
+├── .gitignore                    # Arquivos e pastas ignoradas pelo Git
+├── docker-compose.yml            # Arquivo para subir os containers
+├── .env                          # Variáveis de ambiente (não versionar)
+├── src/                          # Scripts de ETL
+│   ├── extraction.py             # Extrai dados da API CoinGecko
+│   ├── transform.py              # Limpa e transforma os dados
+│   ├── load.py                   # Carrega os dados no PostgreSQL
+│   ├── config.py                 # Configurações e leitura de variáveis
+│   └── utils.py                  # Funções auxiliares (ex.: logging)
+├── dags/                         # DAGs do Apache Airflow
+│   └── crypto_dag.py             # DAG que orquestra o pipeline ETL
+└── docs/                         # Documentação e diagramas
+    ├── arquitetura.pdf           # Diagrama da arquitetura
+    ├── fluxo_de_dados.png        # Diagrama do fluxo de dados
+    └── setup_ambiente.md         # Guia de configuração do ambiente
+
