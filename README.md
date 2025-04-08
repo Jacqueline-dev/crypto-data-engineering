@@ -1,11 +1,11 @@
 # ₿  Crypto ETL Pipeline with Airflow, PostgreSQL, Docker, and Power BI
 
-![Deployed-Architecture](https://github.com/user-attachments/assets/af930c49-768a-4061-9957-235e0e3d21e8)
+![IMG-Deployed-Architecture](https://github.com/user-attachments/assets/02ebb6cb-5093-43a0-bb22-c912a2466a55)
 
 
 ## 📌 Overview
 
-This project is a data engineering pipeline focused on cryptocurrency. It extracts data from the public CoinGecko API, transforms it using Python and Pandas, stores it in PostgreSQL, orchestrates processes with Apache Airflow, and provides interactive dashboards via Power BI.
+This project is a data engineering pipeline focused on cryptocurrency. It extracts data from the public CoinGecko API, transforms it using Python and Pandas, stores it in SQLite, orchestrates processes with Apache Airflow, and provides interactive dashboards via Power BI.
 
 The entire solution is containerized using Docker to ensure portability and consistency across different environments.
 
@@ -14,7 +14,7 @@ The entire solution is containerized using Docker to ensure portability and cons
 - **Python** – ETL scripting and automation
 - **Pandas** – Data cleaning and transformation
 - **CoinGecko API** – Public crypto market data
-- **PostgreSQL** – Relational database for storage
+- **SQLite** – Relational database for storage
 - **Apache Airflow** – Pipeline orchestration and scheduling
 - **Docker** – Containerization of the whole stack
 - **Power BI** – Data visualization
