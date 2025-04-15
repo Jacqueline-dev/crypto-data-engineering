@@ -1,7 +1,5 @@
 # ₿  Crypto ETL Pipeline with Airflow, PostgreSQL, Docker, and Power BI
 
-![IMG-Deployed-Architecture](https://github.com/user-attachments/assets/02ebb6cb-5093-43a0-bb22-c912a2466a55)
-
 
 ## 📌 Overview
 
@@ -14,7 +12,7 @@ The entire solution is containerized using Docker to ensure portability and cons
 - **Python** – ETL scripting and automation
 - **Pandas** – Data cleaning and transformation
 - **CoinGecko API** – Public crypto market data
-- **SQLite** – Relational database for storage
+- **PostgreSQL** – Relational database for storage
 - **Apache Airflow** – Pipeline orchestration and scheduling
 - **Docker** – Containerization of the whole stack
 - **Power BI** – Data visualization
